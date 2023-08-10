@@ -1,6 +1,6 @@
 import config from "./config";
 
-function weather() {
+export function getWeather() {
     const apiKey = config.apiKey;
     const city = document.getElementById('city').value;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
