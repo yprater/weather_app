@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Yuri's Weather Forecast</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <h1>Weather Forecast</h1>
@@ -13,8 +14,13 @@
         function weather() {
             getWeather();
         }
+
+        window.onload = function () {
+            const button = document.querySelector('button');
+            button.onclick = weather;
+        }
     </script>
-    <button onclick="getWeather()">Hey Yuri, how's the weather looking?</button>
+    <button>Hey Yuri, how's the weather looking?</button>
     <div id="weather"></div>
 </body>
 </html>

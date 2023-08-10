@@ -22,7 +22,7 @@ To run the app on your local machine, follow these steps:
 
 3. **Get Your API Key:** You'll need an API key to fetch weather data. Visit [OpenWeatherMap](https://openweathermap.org/) to sign up and obtain a free API key.
 
-4. **Configure API Key:** In the `script.js` file, replace `config.apiKey` with your actual OpenWeatherMap API key.
+4. **Configure API Key:** In the `script.js` file, replace `YOUR_API_KEY` with your actual OpenWeatherMap API key.
 
 5. **Run the App with a Local Web Server:** Due to CORS restrictions, you'll need to run the app using a local web server. You can do so by either:
 
