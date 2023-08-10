@@ -24,7 +24,13 @@ To run the app on your local machine, follow these steps:
 
 4. **Configure API Key:** In the `script.js` file, replace `config.apiKey` with your actual OpenWeatherMap API key.
 
-5. **Run the App:** Once you've added your API key, refresh the webpage in your browser. You can now use the app to check the weather for different cities.
+5. **Run the App with a Local Web Server:** Due to CORS restrictions, you'll need to run the app using a local web server. You can do so by either:
+
+    - **Using Python (Python 3):**  If you have Python 3 installed, you can start a local web server by running the following command in the repository directory: `python -m http.server`
+
+    - **Using Node.js(http-server):** If you prefer Node.js, you can use the http-server package. Install it globally using npm (Node Package Manager): `npm install -g http-server`. Then, run the following command in the repository directory to start the local server:`http-server`     
+
+6. **Run the App:** Open your web browser and navigate to http://localhost:8000 (or the port specified if you used a different port) to access the app served by the local web server. You can now use the app to check the weather for different cities without encountering CORS issues.
 
 ## Note
 
