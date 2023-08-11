@@ -15,14 +15,17 @@ test('should fetch weather data', async () => {
                 }),
         })
     );
-
+    
+    // Call the getWeather function with Seattle as the city
     const response = await getWeather('Seattle');
-    expect(response.name).toBe('Seattle');
-    expect(response.country).toBe('US');
-    expect(response.temperature).toBe(25);
-    expect(response.description).toBe('Sunny');
 
-    // Clean up the mock
+    // Check if the response from getWeather matches the expected values
+    expect(response.name).toBe('Seattle'); // city
+    expect(response.country).toBe('US'); // country code
+    expect(response.temperature).toBe(25); // degrees in celsius
+    expect(response.description).toBe('Sunny'); // weather description
+
+    // Clean up the mock fetch implementation after the test
     global.fetch.mockClear();
     delete global.fetch;
 });
