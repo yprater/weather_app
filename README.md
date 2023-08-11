@@ -38,4 +38,4 @@ Please keep in mind that this app uses data from the OpenWeatherMap API. Be mind
 
 Feel free to explore and share this app. If you encounter any issues or have suggestions for improvements, please let me know!
 
-Enjoy checking the weather with Yuri's Weather Forecast App! ☀️
+Enjoy checking the weather with Yuri's Weather Forecast App! ☀️❄💧⚡
