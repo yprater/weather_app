@@ -86,6 +86,8 @@
             button.onclick = weather;
         }
     </script>
+    <!-- Leaflet CSS for OpenStreetMap -->
+    <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 </head>
 <body>
     <h1>Weather Forecast</h1>
@@ -93,6 +95,14 @@
     <input type="text" id ="city" placeholder="e.g. Seattle"></input>
 
     <button>Hey Yuri, how's the weather looking?</button>
-    <div id="weather"></div>
+    <div id="weather">
+        <div id="mapid" style="height: 300px; width: 500px; position: relative;"></div>
+    </div>
+
+    <!-- Script tag to load the Leaflet library for OpenStreetMap  -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!-- Script tag that uses the Leaflet library for OpenStreetMap -->
+    <script src="script.js"></script>
 </body>
 </html>
