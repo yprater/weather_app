@@ -1,0 +1,14 @@
+{
+    "name": "weather_app",
+    "version": "1.0.0",
+    "description": "a simple weather forecast application",
+    "type": "module",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Yuri A. Prater II",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^28.0.0"
+    }
+}
