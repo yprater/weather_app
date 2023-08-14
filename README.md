@@ -56,7 +56,9 @@ To run the tests and validate the behavior of this weather app, you can follow t
     - Click Continue and import the collection
 3. **Run the Tests:**
     - Once the collection is imported, you'll see a folder named "Weather APP API Tests
-    - Open the doler to reveal the test cases
+    - Open the folder to reveal the test cases
+    - **Obtain an API Key:** If you haven't done so already, visit the OpenWeather website to obtain your API key.
+    - **Configure the API Key:** Once you have the API key, make sure to configure it as a parameter in the Postman         collection. In the "Weather App API Test Collection" on Postman, you'll find a request that requires an API         key. In that request, locate the "Params" section, and set the value of the "key" parameter to your API             key. This ensures that the requests in the collection are properly authorized.
     - Click on a test to view its details
     - Click the send button to execute the test
     - Check the results in the "Tests" tab of the response
