@@ -39,3 +39,26 @@ Please keep in mind that this app uses data from the OpenWeatherMap API. Be mind
 Feel free to explore and share this app. If you encounter any issues or have suggestions for improvements, please let me know!
 
 Enjoy checking the weather with Yuri's Weather Forecast App! ☀️❄💧⚡
+
+## API Testing
+
+We have a comprehensive set of API tests uding Postman to ensure the correctness of our applications API interactions. These tests allow us to validate the API responses, handing of different scenarios and overall reliabilty.
+
+## How to Use the API Test Collection
+
+To run the tests and validate the behavior of this weather app, you can follow these steps:
+
+1. **Install Postman:** If you haven't already, download and install Postman on your local machine or sign into your Postman account on a web browser.
+2. **Import the Collection:**
+    - Open Postman
+    - Click the Import button in the top left corner
+    - Enter this URL: https://www.postman.com/pratery/workspace/yuri-s-weather-app-api-tests/request/29110280-5a848080-1b0b-4990-9c24-3837d29610bc?ctx=documentation
+    - Click Continue and import the collection
+3. **Run the Tests:**
+    - Once the collection is imported, you'll see a folder named "Weather APP API Tests
+    - Open the doler to reveal the test cases
+    - Click on a test to view its details
+    - Click the send button to execute the test
+    - Check the results in the "Tests" tab of the response
+
+Feel free to explore the API tests, and if you have any questions or suggestions, please don't hesitate to reach out.
